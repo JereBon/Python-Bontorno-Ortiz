@@ -1,5 +1,5 @@
 import random
-i = random.randint(0,100)
+i = random.randint(0, 100)
 print(i)
 q = 0
 while True:
@@ -10,5 +10,5 @@ while True:
     elif x > i:
         print("Es muy alto")
     else:
-        print("Correcto, número encontrado, cantidad de intentos: " , q)
+        print("Correcto, número encontrado, cantidad de intentos: ", q)
         break

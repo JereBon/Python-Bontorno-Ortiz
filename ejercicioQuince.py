@@ -5,9 +5,10 @@ def suma_cifras(x):
         x //= 10
     return suma
 
+
 x = 0
 x = int(input("Ingrese un número entero: "))
-print("El número ", x ," es divisible por:")
+print("El número ", x, " es divisible por:")
 
 if x % 2 == 0:
     print("2")

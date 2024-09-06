@@ -1,9 +1,14 @@
-i = 2
-x = int(input("Introduzca un número: "))
-if i in range(x-1):
-    if x % i == 0 or x <= 1:
-        print("No es número primo")
+x = int(input("Ingrese un número: "))
+
+if x > 1:
+    es_primo = True
+    for n in range(2, x):
+        if x % n == 0:
+            es_primo = False
+            break
+    if es_primo:
+        print("Es un número primo")
     else:
-        print("Es número primo")
+        print("No es un número primo")
 else:
-    print("Es número primo")
+    print("No es un número primo")
